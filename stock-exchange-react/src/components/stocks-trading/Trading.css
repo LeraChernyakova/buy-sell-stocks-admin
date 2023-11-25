@@ -1,0 +1,28 @@
+.trading_container {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin: 5px auto;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.scrollable_trading {
+    height: auto;
+    max-height: 80vh;
+    overflow-y: scroll;
+    background-color: #cdd0f8;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.trading_elem {
+    color: #000;
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
